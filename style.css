@@ -490,6 +490,14 @@ hr {
     padding: 2rem 3%;
   }
 
+  .container {
+    font-size: 1.4rem;
+  }
+
+  span#time {
+    font-size: 1.4rem;
+  }
+
   section {
     padding: 10rem 3% 2rem;
   }
@@ -539,6 +547,14 @@ hr {
     margin: 3rem 0;
   }
 
+  .container {
+    font-size: 1.2rem;
+  }
+
+  span#time {
+    font-size: 1.2rem;
+  }
+
   .home {
     flex-direction: column;
   }
@@ -579,6 +595,15 @@ hr {
 }
 
 @media (max-width: 617px) {
+  .container {
+    font-size: 1rem;
+  }
+
+  span#time {
+    font-size: 1rem;
+  }
+
+
   .portfolio-container {
     grid-template-columns: 1fr;
   }
@@ -589,12 +614,32 @@ hr {
     font-size: 50%;
   }
 
+  section#home.home {
+    text-align: center;
+  }
+
+  .container {
+    font-size: .8rem;
+  }
+
+  span#time {
+    font-size: .8rem;
+  }
+
   .contact form .input-box input {
     width: 100%;
   }
 }
 
 @media (max-width: 365px) {
+  .container {
+    font-size: .6rem;
+  }
+
+  span#time {
+    font-size: .6rem;
+  }
+
   .home-img img {
     width: 90vw;
   }
