@@ -383,6 +383,11 @@ span {
   cursor: pointer;
 }
 
+.contact a {
+  display: ;
+  align-self: center;
+}
+
 ol li {
   font-size: 1.8rem;
   text-align: center;
@@ -392,7 +397,7 @@ ol li {
 
 hr {
   /* background: var(--main-color); */
-  border: 5px solid;
+  border: 2px solid var(--main-color);
 }
 
 .footer {
@@ -441,15 +446,6 @@ hr {
   background: #637c54;
   font-size: 1.2rem;
   font-weight: bold;
-}
-
-a:hover+.hide {
-  visibility: visible;
-  color: #052b2f;
-}
-
-.contact-page {
-  font-size: 50px;
 }
 
 
