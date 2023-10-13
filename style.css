@@ -25,7 +25,8 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
   scroll-behavior: unset;
 }
 
@@ -51,7 +52,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 9%;
+  padding: 1.4rem 8%;
   background: var(--bg-color);
   display: flex;
   justify-content: space-between;
@@ -90,6 +91,12 @@ section {
   display: none;
 }
 
+span#time {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 5px 0 8px;
+}
+
 .card {
   background: var(--main-color);
 }
@@ -101,8 +108,7 @@ section {
   gap: 2rem;
 }
 
-.home-img,
-img {
+.home-img img {
   width: 30vw;
   border-radius: 10px;
   /* text-align: center; */
@@ -146,6 +152,12 @@ span {
 .home-content p {
   font-size: 1.6rem;
 }
+
+.home-img {
+  background: var(--main-color);
+  border-radius: 8px;
+}
+
 
 #date {
   font-size: 1.4rem;
@@ -197,8 +209,15 @@ span {
   background: var(--second-bg-color);
 }
 
+.about-img {
+  background: var(--main-color);
+  border-radius: 8px;
+}
+
 .about-img img {
   width: 35vw;
+  border-radius: 10px;
+  animation: floatimage 4s ease-in-out infinite;
 }
 
 .heading {
@@ -496,6 +515,7 @@ hr {
 
   span#time {
     font-size: 1.4rem;
+    text-decoration: none;
   }
 
   section {
@@ -615,6 +635,14 @@ hr {
   }
 
   section#home.home {
+    text-align: center;
+  }
+
+  section#about.about {
+    text-align: center;
+  }
+
+  .about-content h2 {
     text-align: center;
   }
 
