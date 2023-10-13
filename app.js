@@ -1,3 +1,9 @@
+setInterval(upDatetime, 1000);
+
+function upDatetime() {
+  time.innerHTML = new Date();
+}
+
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 

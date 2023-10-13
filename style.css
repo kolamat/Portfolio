@@ -147,6 +147,10 @@ span {
   font-size: 1.6rem;
 }
 
+#date {
+  font-size: 1.4rem;
+}
+
 .social-media a {
   display: inline-flex;
   justify-content: center;
