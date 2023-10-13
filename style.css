@@ -448,6 +448,11 @@ a:hover+.hide {
   color: #052b2f;
 }
 
+.contact-page {
+  font-size: 50px;
+}
+
+
 
 /* - Add display: flex to the parent of both the button & text 
 - Add gap: 12px (anything) 
