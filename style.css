@@ -384,8 +384,18 @@ span {
 }
 
 .contact a {
-  display: ;
-  align-self: center;
+  display: grid;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.contact a:hover {
+  color: rgb(69, 69, 237);
+}
+
+.contact a:hover:active {
+  color: rgb(225, 8, 8);
 }
 
 ol li {
