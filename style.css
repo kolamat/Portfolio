@@ -392,7 +392,7 @@ ol li {
 
 hr {
   /* background: var(--main-color); */
-  border: 5px solid var(--main-color);
+  border: 5px solid;
 }
 
 .footer {
