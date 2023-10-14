@@ -55,7 +55,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.4rem 6%;
+  padding: 1.4rem 4%;
   background: var(--bg-color);
   display: flex;
   justify-content: space-between;
