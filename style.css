@@ -659,7 +659,7 @@ hr {
   }
 }
 
-@media (max-width: 365px) {
+@media (min-width: 365px) {
   .container {
     font-size: .6rem;
   }
