@@ -37,6 +37,7 @@ body {
 
 .container {
   font-size: 1.5rem;
+  font-weight: 900;
   background-image: linear-gradient(179deg, #1f242d, #052b2f, #0ef, #fff);
   color: var(--bg-color);
   height: 38px;
