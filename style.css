@@ -47,7 +47,8 @@ body {
 }
 
 .container:hover {
-  background-image: var(--main-color);
+  background: var(--main-color);
+  color: #fff;
 }
 
 section {
@@ -116,11 +117,23 @@ span#time {
   gap: 2rem;
 }
 
+.home-img:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 .5rem .5rem var(--main-color);
+  transition: .5s;
+}
+
 .home-img img {
   width: 30vw;
   border-radius: 10px;
   /* text-align: center; */
   animation: floatimage 4s ease-in-out infinite;
+}
+
+.home-img {
+  background: var(--main-color);
+  border-radius: 8px;
 }
 
 @keyframes floatimage {
@@ -159,11 +172,6 @@ span {
 
 .home-content p {
   font-size: 1.6rem;
-}
-
-.home-img {
-  background: var(--main-color);
-  border-radius: 8px;
 }
 
 
@@ -226,6 +234,13 @@ span {
   width: 35vw;
   border-radius: 10px;
   animation: floatimage 4s ease-in-out infinite;
+}
+
+.about-img:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 .5rem .5rem var(--color5);
+  transition: .5s;
 }
 
 .heading {
