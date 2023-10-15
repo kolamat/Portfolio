@@ -554,6 +554,7 @@ hr {
 @media (max-width: 769px) {
   #menu-icon {
     display: block;
+    cursor: pointer;
   }
 
   .container {
