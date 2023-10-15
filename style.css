@@ -536,10 +536,6 @@ hr {
     font-size: 1.8rem;
   }
 
-  .container:hover {
-    background-image: var(--main-color);
-  }
-
   span#time {
     font-size: 1.4rem;
     text-decoration: none;
@@ -574,10 +570,6 @@ hr {
 
   .container {
     font-size: 1.8rem;
-  }
-
-  .container:hover {
-    background-image: var(--main-color);
   }
 
   .navbar {
@@ -648,13 +640,8 @@ hr {
 
 @media (max-width: 617px) {
   .container {
-    /* font-size: 1.8rem; */
     display: none
   }
-
-  /* .container:hover {
-    background-image: var(--main-color);
-  } */
 
   span#time {
     font-size: 1rem;
@@ -672,13 +659,8 @@ hr {
   }
 
   .container {
-    /* font-size: 1.6rem; */
     display: none;
   }
-
-  /* .container:hover {
-    background-image: var(--main-color);
-  } */
 
   section#home.home {
     text-align: center;
@@ -692,10 +674,6 @@ hr {
     text-align: center;
   }
 
-  /* .container {
-    font-size: .8rem;
-  } */
-
   span#time {
     font-size: 1rem;
   }
@@ -707,13 +685,8 @@ hr {
 
 @media (max-width: 365px) {
   .container {
-    /* font-size: .6rem; */
     display: none;
   }
-
-  /* .container:hover {
-    background-image: var(--main-color);
-  } */
 
   span#time {
     font-size: 1rem;
