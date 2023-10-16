@@ -128,7 +128,7 @@ span#time {
   width: 30vw;
   border-radius: 10px;
   /* text-align: center; */
-  animation: floatimage 2s ease-in-out infinite;
+  animation: floatimage 2.5s ease-in-out infinite;
 }
 
 .home-img {
@@ -233,7 +233,7 @@ span {
 .about-img img {
   width: 35vw;
   border-radius: 10px;
-  animation: floatimage 2s ease-in-out infinite;
+  animation: floatimage 2.5s ease-in-out infinite;
 }
 
 .about-img:hover {

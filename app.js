@@ -59,6 +59,6 @@ const typed = new Typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
   typeSpeed: 100,
   backSpeed: 100,
-  backDelay: 1000,
+  backDelay: 2000,
   loop: true,
 });
