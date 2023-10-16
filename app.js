@@ -62,3 +62,9 @@ const typed = new Typed(".multiple-text", {
   backDelay: 2000,
   loop: true,
 });
+
+function contacts() {
+  // document.getElementById("demo").innerHTML =
+  //   "https://kolamat.github.io/Html-Portfolio/public/contact.htm";
+  alert("Tel: +2348150672809 Email: matanmidupe004@gmail.com");
+}

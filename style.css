@@ -35,21 +35,21 @@ body {
   color: var(--text-color);
 }
 
-.container {
+/* .container {
   font-size: 1.9rem;
   font-weight: 900;
-  background-image: linear-gradient(179deg, #1f242d, #052b2f, #0ef, #fff);
+  background-image: linear-gradient(179deg, #687489, #25767e, #0ef, #fff);
   color: var(--bg-color);
   height: 38px;
   box-shadow: 0px 0px 2px 2px var(--main-color);
   border-radius: 10px;
   padding: 5px;
-}
+} */
 
-.container:hover {
+/* .container:hover {
   background: var(--main-color);
   color: #fff;
-}
+} */
 
 section {
   min-height: 100vh;
@@ -117,26 +117,26 @@ span#time {
   gap: 2rem;
 }
 
-.home-img:hover {
+/* .home-img:hover {
   background: var(--main-color);
   color: var(--bg-color);
   box-shadow: 0 0 .5rem .5rem var(--main-color);
   transition: .5s;
-}
+}  */
 
 .home-img img {
   width: 30vw;
   border-radius: 10px;
   /* text-align: center; */
-  animation: floatimage 2.5s ease-in-out infinite;
+  /* animation: floatimage 2.5s ease-in-out infinite; */
 }
 
 .home-img {
-  background: var(--main-color);
+  /* background: var(--main-color); */
   border-radius: 8px;
 }
 
-@keyframes floatimage {
+/* @keyframes floatimage {
   0% {
     transform: translateY(0);
   }
@@ -148,7 +148,7 @@ span#time {
   100% {
     transform: translateY(0);
   }
-}
+} */
 
 .home-content h3 {
   font-size: 3.2rem;
@@ -205,7 +205,7 @@ span {
   padding: 1rem 2.8rem;
   background: var(--main-color);
   border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
+  /* box-shadow: 0 0 1rem var(--main-color); */
   font-size: 1.6rem;
   color: var(--second-bg-color);
   letter-spacing: .2rem;
@@ -214,7 +214,7 @@ span {
 }
 
 .btn:hover {
-  box-shadow: none;
+  box-shadow: 0 0 1rem var(--main-color);
 }
 
 .about {
@@ -226,22 +226,22 @@ span {
 }
 
 .about-img {
-  background: var(--main-color);
+  /* background: var(--main-color); */
   border-radius: 8px;
 }
 
 .about-img img {
   width: 35vw;
   border-radius: 10px;
-  animation: floatimage 2.5s ease-in-out infinite;
+  /* animation: floatimage 2.5s ease-in-out infinite; */
 }
 
-.about-img:hover {
+/* .about-img:hover {
   background: var(--main-color);
   color: var(--bg-color);
   box-shadow: 0 0 .5rem .5rem var(--main-color);
   transition: .5s;
-}
+} */
 
 .heading {
   text-align: center;
