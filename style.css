@@ -70,7 +70,8 @@ section {
 }
 
 .header.sticky {
-  /* border-top: .1rem var(--main-color); */
+  /* border-top: .1rem solid var(rgb(86, 86, 186), rgb(32, 122, 118), rgb(83, 36, 98)); */
+  border-top: .1rem solid var(--main-color);
   border-bottom: .1rem solid var(rgb(86, 86, 186), rgb(32, 122, 118), rgb(83, 36, 98));
   border-radius: .7rem;
 }
@@ -100,11 +101,11 @@ section {
   display: none;
 }
 
-span#time {
+/* span#time {
   text-decoration: none;
   font-size: 14px;
   margin: 0 5px 0 4px;
-}
+} */
 
 .card {
   background: var(--main-color);
