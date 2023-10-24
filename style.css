@@ -70,11 +70,7 @@ section {
 }
 
 .header.sticky {
-  /* border-top: .1rem solid var(rgb(86, 86, 186), rgb(32, 122, 118), rgb(83, 36, 98)); */
-  border-left: .1rem solid var(--main-color);
-  border-right: .1rem solid var(--main-color);
-  border-top: .1rem solid var(--main-color);
-  border-bottom: .1rem solid var(--main-color);
+  border: .1rem solid var(--main-color);
   border-radius: .7rem;
 }
 
