@@ -647,15 +647,19 @@ hr {
     display: none
   }
 
-  span#time {
+  /* span#time {
     font-size: 1rem;
-  }
+  } */
 
   .header.sticky {
     border-radius: 0 0 .6rem .6rem;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+  }
+
+  section#home.home {
+    text-align: left;
   }
 
   .portfolio-container {
@@ -670,10 +674,6 @@ hr {
 
   .container {
     display: none;
-  }
-
-  section#home.home {
-    text-align: center;
   }
 
   section#about.about {
