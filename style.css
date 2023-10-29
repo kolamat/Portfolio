@@ -495,7 +495,7 @@ hr {
 }
 
 .hide {
-  display: flex;
+  display: none;
   flex-direction: column;
   border: .9px solid var(--color2);
   border-radius: 10px;
@@ -504,10 +504,10 @@ hr {
   font-weight: bold;
 }
 
-/* 
+
 .hide:hover {
   display: flex;
-} */
+}
 
 
 /* - Add display: flex to the parent of both the button & text 
@@ -651,6 +651,11 @@ hr {
     font-size: 1rem;
   }
 
+  .header.sticky {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
 
   .portfolio-container {
     grid-template-columns: 1fr;

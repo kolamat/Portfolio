@@ -57,10 +57,10 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
-  typeSpeed: 100,
-  backSpeed: 100,
+  typeSpeed: 150,
+  backSpeed: 150,
   backDelay: 2000,
-  loop: true,
+  loop: false,
 });
 
 function contacts() {
