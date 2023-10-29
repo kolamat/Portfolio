@@ -652,6 +652,7 @@ hr {
   }
 
   .header.sticky {
+    border-radius: 0 0 .6rem .6rem;
     border-top: 0;
     border-left: 0;
     border-right: 0;
