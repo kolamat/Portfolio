@@ -1,8 +1,8 @@
-setInterval(upDatetime, 1000);
+// setInterval(upDatetime, 1000);
 
-function upDatetime() {
-  time.innerHTML = new Date();
-}
+// function upDatetime() {
+//   time.innerHTML = new Date();
+// }
 
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
@@ -57,9 +57,8 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
-  delay: 2500,
-  typeSpeed: 150,
-  backSpeed: 150,
+  typeSpeed: 130,
+  backSpeed: 130,
   backDelay: 2000,
   loop: false,
 });
