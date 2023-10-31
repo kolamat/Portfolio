@@ -535,6 +535,7 @@ hr {
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
+    width: 100%;
   }
 
   .container {
@@ -568,6 +569,10 @@ hr {
 }
 
 @media (max-width: 769px) {
+  .header {
+    width: 100%;
+  }
+
   #menu-icon {
     display: block;
     cursor: pointer;
@@ -644,6 +649,10 @@ hr {
 }
 
 @media (max-width: 617px) {
+  .header {
+    width: 100%;
+  }
+
   .container {
     display: none
   }
@@ -673,6 +682,10 @@ hr {
     font-size: 50%;
   }
 
+  .header {
+    width: 100%;
+  }
+
   .container {
     display: none;
   }
@@ -695,6 +708,10 @@ hr {
 }
 
 @media (max-width: 365px) {
+  .header {
+    width: 100%;
+  }
+
   .container {
     display: none;
   }
