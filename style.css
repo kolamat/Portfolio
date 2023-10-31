@@ -469,7 +469,12 @@ hr {
   font-size: 1.6rem;
 }
 
-.footer-iconTop a {
+.footer-iconTop {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-iconTop {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -491,24 +496,29 @@ hr {
 
 .float {
   display: flex;
-  gap: .4rem;
+  flex-direction: column;
+  gap: .2rem;
   align-items: center;
+}
+
+.float:hover .hide:hover {
+  display: flex;
+  flex-direction: column;
 }
 
 .hide {
   display: none;
-  flex-direction: column;
   border: .9px solid var(--color2);
   border-radius: 10px;
   background: #637c54;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1rem;
+  padding: .3rem;
 }
 
 
-.hide:hover {
-  display: flex;
-}
+/* .hide:hover {
+  display: block;
+} */
 
 
 /* - Add display: flex to the parent of both the button & text 
@@ -542,10 +552,10 @@ hr {
     font-size: 1.8rem;
   }
 
-  span#time {
+  /* span#time {
     font-size: 1.4rem;
     text-decoration: none;
-  }
+  } */
 
   section {
     padding: 10rem 3% 2rem;
@@ -699,9 +709,9 @@ hr {
     text-align: center;
   }
 
-  span#time {
+  /* span#time {
     font-size: 1rem;
-  }
+  } */
 
   .contact form .input-box input {
     width: 100%;
@@ -717,9 +727,9 @@ hr {
     display: none;
   }
 
-  span#time {
+  /* span#time {
     font-size: 1rem;
-  }
+  } */
 
   .home-img img {
     width: 90vw;
