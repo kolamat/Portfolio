@@ -63,7 +63,10 @@ const typed = new Typed(".multiple-text", {
   loop: false,
 });
 
-function contacts() {
-  document.getElementById("demo").innerHTML =
-    "https://kolamat.github.io/Html-Portfolio/public/contact.htm";
-}
+// setTimeout(typed, 5000);
+// setTimeout(myMessage, 3000);
+
+// function contacts() {
+//   document.getElementById("demo").innerHTML =
+//     "https://kolamat.github.io/Html-Portfolio/public/contact.htm";
+// }
