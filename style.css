@@ -329,13 +329,14 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
-  padding: 2rem 2rem 2rem 2rem;
+  /* padding: .3rem .3rem .3rem .3rem; */
 }
 
 .portfolio-box img {
   width: 100%;
   height: 310px;
   transition: .5s ease;
+  border-radius: 4px;
 }
 
 .portfolio-box:hover img {
