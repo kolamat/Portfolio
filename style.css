@@ -126,16 +126,14 @@ section {
 .home-img img {
   width: 30vw;
   border-radius: 10px;
-  /* text-align: center; */
-  /* animation: floatimage 2.5s ease-in-out infinite; */
+  animation: floatimage 2.5s ease-in-out infinite;
 }
 
 .home-img {
-  /* background: var(--main-color); */
   border-radius: 8px;
 }
 
-/* @keyframes floatimage {
+@keyframes floatimage {
   0% {
     transform: translateY(0);
   }
@@ -147,7 +145,7 @@ section {
   100% {
     transform: translateY(0);
   }
-} */
+}
 
 .home-content h3 {
   font-size: 3.2rem;
