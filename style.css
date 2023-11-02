@@ -70,6 +70,7 @@ section {
 }
 
 .header.sticky {
+  /* background: linear-gradient(360deg, #0ef, #0e4b50); */
   border: .1rem solid var(--main-color);
   border-radius: .7rem;
 }
