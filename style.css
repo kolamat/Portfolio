@@ -215,6 +215,10 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+.multiple-text {
+  text-decoration: none;
+}
+
 .about {
   display: flex;
   justify-content: center;
