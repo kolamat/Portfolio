@@ -567,6 +567,15 @@ hr {
   }
 }
 
+@media (max-width: 821px) {
+  .header.sticky {
+    border-radius: 0 0 .6rem .6rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+}
+
 @media (max-width: 769px) {
   .header {
     width: 100%;
@@ -661,12 +670,12 @@ hr {
     font-size: 1rem;
   } */
 
-  .header.sticky {
+  /* .header.sticky {
     border-radius: 0 0 .6rem .6rem;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-  }
+  } */
 
   section#home.home {
     /* text-align: left; */
