@@ -669,11 +669,24 @@ hr {
   }
 
   section#home.home {
-    text-align: left;
+    /* text-align: left; */
+    padding: 7rem 3rem;
   }
 
   .portfolio-container {
     grid-template-columns: 1fr;
+  }
+
+  .about {
+    padding: 7rem 3rem;
+  }
+
+  .services {
+    padding: 7rem 3rem;
+  }
+
+  .contact {
+    padding: 7rem 3rem;
   }
 }
 
