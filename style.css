@@ -33,6 +33,7 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 /* .container {
@@ -505,10 +506,10 @@ hr {
   align-items: center;
 }
 
-.float:hover .hide:hover {
+/* .float:hover .hide:hover {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .hide {
   display: none;
