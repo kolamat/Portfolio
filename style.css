@@ -118,17 +118,10 @@ section {
   gap: 2rem;
 }
 
-/* .home-img:hover {
-  background: var(--main-color);
-  color: var(--bg-color);
-  box-shadow: 0 0 .5rem .5rem var(--main-color);
-  transition: .5s;
-}  */
-
 .home-img img {
   width: 30vw;
   border-radius: 10px;
-  animation: floatimage 2.5s ease-in-out infinite;
+  /* animation: floatimage 2.5s ease-in-out infinite; */
 }
 
 .home-img {
@@ -236,7 +229,7 @@ span {
 .about-img img {
   width: 35vw;
   border-radius: 10px;
-  /* animation: floatimage 2.5s ease-in-out infinite; */
+  animation: floatimage 2.5s ease-in-out infinite;
 }
 
 /* .about-img:hover {
