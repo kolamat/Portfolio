@@ -546,9 +546,9 @@ hr {
     text-decoration: none;
   } */
 
-  section {
+  /* section {
     padding: 10rem 3% 2rem;
-  }
+  } */
 
   .services {
     padding-bottom: 7rem;
@@ -670,7 +670,7 @@ hr {
 
   section#home.home {
     /* text-align: left; */
-    padding: 7rem 3rem;
+    padding: 7rem 1.4rem;
   }
 
   .portfolio-container {
