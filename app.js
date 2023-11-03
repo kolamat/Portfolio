@@ -57,10 +57,11 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
-  startDelay: 2000,
-  typeSpeed: 110,
-  backSpeed: 130,
-  backDelay: 3000,
-  loop: true,
   shuffle: true,
+  cursorChar: "_",
+  startDelay: 1000,
+  typeSpeed: 130,
+  backSpeed: 130,
+  backDelay: 2000,
+  loop: true,
 });
