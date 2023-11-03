@@ -59,7 +59,7 @@ const typed = new Typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
   shuffle: true,
   cursorChar: "_",
-  startDelay: 1000,
+  startDelay: 2000,
   typeSpeed: 130,
   backSpeed: 130,
   backDelay: 2000,
