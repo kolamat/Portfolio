@@ -330,17 +330,15 @@ span {
   border-radius: 2rem;
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
-  /* height: 300px; */
-  /* width: 100%; */
   /* display: flex; */
   /* padding: .3rem .3rem .3rem .3rem; */
 }
 
 .portfolio-box img {
   width: 100%;
-  /* height: 200px; */
+  height: 280px;
   object-fit: cover;
-  /* object-position: center; */
+  object-position: center;
   transition: .5s ease;
   /* border-radius: 4px; */
 }
