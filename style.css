@@ -500,6 +500,14 @@ hr {
   align-items: center;
 }
 
+#btn {
+  color: #fff;
+}
+
+#btn:hover {
+  color: rgb(0, 68, 255);
+}
+
 /* .float:hover {
   background-image: linear-gradient(360deg, rgb(65, 65, 165), rgb(133, 133, 171));
 } */
