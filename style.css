@@ -543,6 +543,10 @@ hr {
     width: 100%;
   }
 
+  body {
+    padding-top: 10rem;
+  }
+
   .container {
     font-size: 1.8rem;
   }
