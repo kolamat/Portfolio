@@ -353,7 +353,7 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+  background: linear-gradient(180deg, rgb(24, 19, 59), rgb(99, 99, 180), rgb(45, 94, 146));
   display: flex;
   justify-content: center;
   align-items: center;
