@@ -105,6 +105,11 @@ section {
   margin: 0 5px 0 4px;
 } */
 
+#sun {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .card {
   background: var(--main-color);
 }
