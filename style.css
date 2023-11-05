@@ -109,9 +109,10 @@ section {
 #sun {
   position: absolute;
   font-size: 20px;
+  text-align: center;
   cursor: pointer;
   top: 50%;
-  left: 30%;
+  left: 39%;
   transform: translate(-50%, -50%);
 }
 
