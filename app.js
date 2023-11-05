@@ -4,6 +4,17 @@
 //   time.innerHTML = new Date();
 // }
 
+const toggle = document.getElementById("sun");
+const body = document.querySelector("body");
+
+toggle.addEventListener("click", function () {
+  this.classList.toggle("fa-moon");
+  if (this.classList.toggle("fa-sharp fa-solid fa-sun")) {
+    body.style.background = "white";
+    body.style.color = "black";
+  }
+});
+
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
