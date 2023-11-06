@@ -6,12 +6,42 @@
 
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
+const header = document.querySelector("header");
+const about = document.querySelector(".about");
+const portfolio = document.querySelector(".portfolio");
+const box = document.querySelector(".portfolio-box");
+const footer = document.querySelector("footer");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
-  if (this.classList.toggle("fa-sharp fa-solid fa-sun")) {
-    body.style.background = "white";
-    body.style.color = "black";
+  if (this.classList.toggle("fa-sun")) {
+    body.style.background = "#1f242d";
+    body.style.color = "#ffff";
+    body.style.transition = "2s";
+    header.style.background = "#1f242d";
+    header.style.transition = "2s";
+    about.style.background = "#1f242d";
+    about.style.transition = "2s";
+    portfolio.style.background = "#1f242d";
+    portfolio.style.transition = "2s";
+    box.style.background = "#1f242d";
+    box.style.transition = "2s";
+    footer.style.background = "#1f242d";
+    footer.style.transition = "2s";
+  } else {
+    body.style.background = "black";
+    body.style.color = "#fff";
+    body.style.transition = "2s";
+    header.style.background = "black";
+    header.style.transition = "2s";
+    about.style.background = "black";
+    about.style.transition = "2s";
+    portfolio.style.background = "black";
+    portfolio.style.transition = "2s";
+    box.style.background = "black";
+    box.style.transition = "2s";
+    footer.style.background = "black";
+    footer.style.transition = "2s";
   }
 });
 
