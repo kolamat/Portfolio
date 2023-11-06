@@ -12,7 +12,7 @@ const portfolio = document.querySelector(".portfolio");
 const box = document.querySelector(".portfolio-box");
 const footer = document.querySelector("footer");
 const logo = document.querySelector(".logo");
-const nav = document.querySelector(".kolade");
+// const nav = document.querySelector(".kolade");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
@@ -24,7 +24,7 @@ toggle.addEventListener("click", function () {
     header.style.background = "#ffff";
     header.style.color = "#000";
     header.style.transition = "2s";
-    nav.style.color = "#000";
+    // nav.style.color = "#000";
     about.style.background = "#ffff";
     about.style.transition = "2s";
     portfolio.style.background = "#ffff";
@@ -41,7 +41,7 @@ toggle.addEventListener("click", function () {
     header.style.color = "#ffff";
     header.style.transition = "2s";
     logo.style.color = "#fff";
-    nav.style.color = "#fff";
+    // nav.style.color = "#fff";
     about.style.background = "black";
     about.style.transition = "2s";
     portfolio.style.background = "black";
