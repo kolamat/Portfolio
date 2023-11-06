@@ -12,7 +12,8 @@ const portfolio = document.querySelector(".portfolio");
 const box = document.querySelector(".portfolio-box");
 const footer = document.querySelector("footer");
 const logo = document.querySelector(".logo");
-// const nav = document.querySelector(".kolade");
+const services = document.querySelector(".services-box");
+// const inputbox = document.querySelector(".input-box");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
@@ -24,13 +25,18 @@ toggle.addEventListener("click", function () {
     header.style.background = "#ffff";
     header.style.color = "#000";
     header.style.transition = "2s";
-    // nav.style.color = "#000";
     about.style.background = "#ffff";
     about.style.transition = "2s";
     portfolio.style.background = "#ffff";
     portfolio.style.transition = "2s";
+    services.style.background = "#ffff";
+    services.style.transition = "2s";
+    services.style.color = "#000";
     box.style.background = "#ffff";
     box.style.transition = "2s";
+    // inputbox.style.background = "#ffff";
+    // inputbox.style.color = "#000";
+    // inputbox.style.transition = "2s";
     footer.style.background = "#ffff";
     footer.style.transition = "2s";
   } else {
@@ -41,13 +47,18 @@ toggle.addEventListener("click", function () {
     header.style.color = "#ffff";
     header.style.transition = "2s";
     logo.style.color = "#fff";
-    // nav.style.color = "#fff";
     about.style.background = "black";
     about.style.transition = "2s";
     portfolio.style.background = "black";
     portfolio.style.transition = "2s";
+    services.style.background = "black";
+    services.style.transition = "2s";
+    services.style.color = "#fff";
     box.style.background = "black";
     box.style.transition = "2s";
+    // inputbox.style.background = "#000";
+    // inputbox.style.color = "#fff";
+    // inputbox.style.transition = "2s";
     footer.style.background = "black";
     footer.style.transition = "2s";
   }
