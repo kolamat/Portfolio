@@ -6,34 +6,42 @@
 
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
-const header = document.querySelector("header");
+const header = document.querySelector(".header");
 const about = document.querySelector(".about");
 const portfolio = document.querySelector(".portfolio");
 const box = document.querySelector(".portfolio-box");
 const footer = document.querySelector("footer");
+const logo = document.querySelector(".logo");
+const nav = document.querySelector(".kolade");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
   if (this.classList.toggle("fa-sun")) {
-    body.style.background = "#1f242d";
-    body.style.color = "#ffff";
+    body.style.background = "#ffff";
+    body.style.color = "black";
     body.style.transition = "2s";
-    header.style.background = "#1f242d";
+    logo.style.color = "#000";
+    header.style.background = "#ffff";
+    header.style.color = "#000";
     header.style.transition = "2s";
-    about.style.background = "#1f242d";
+    nav.style.color = "#000";
+    about.style.background = "#ffff";
     about.style.transition = "2s";
-    portfolio.style.background = "#1f242d";
+    portfolio.style.background = "#ffff";
     portfolio.style.transition = "2s";
-    box.style.background = "#1f242d";
+    box.style.background = "#ffff";
     box.style.transition = "2s";
-    footer.style.background = "#1f242d";
+    footer.style.background = "#ffff";
     footer.style.transition = "2s";
   } else {
     body.style.background = "black";
     body.style.color = "#fff";
     body.style.transition = "2s";
     header.style.background = "black";
+    header.style.color = "#ffff";
     header.style.transition = "2s";
+    logo.style.color = "#fff";
+    nav.style.color = "#fff";
     about.style.background = "black";
     about.style.transition = "2s";
     portfolio.style.background = "black";
