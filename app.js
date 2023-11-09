@@ -23,7 +23,7 @@ toggle.addEventListener("click", function () {
     body.style.transition = "2s";
     logo.style.color = "#000";
     header.style.background = "#ffff";
-    header.style.color = "#000";
+    // header.style.color = "#000";
     header.style.transition = "2s";
     about.style.background = "#ffff";
     about.style.transition = "2s";
@@ -58,7 +58,7 @@ toggle.addEventListener("click", function () {
     navBar.style.background = "#000";
     navBar.style.color = "#fff";
     navBar.style.transition = "2s";
-    footer.style.background = "black";
+    footer.style.background = "#000";
     footer.style.transition = "2s";
   }
 });
