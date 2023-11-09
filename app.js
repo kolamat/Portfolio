@@ -35,7 +35,6 @@ toggle.addEventListener("click", function () {
     box.style.background = "#ffff";
     box.style.transition = "2s";
     navBar.style.background = "#fff";
-    // navBar.style.color = "#color";
     navBar.style.transition = "2s";
     footer.style.background = "#ffff";
     footer.style.transition = "2s";
