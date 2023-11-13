@@ -45,7 +45,7 @@ toggle.addEventListener("click", function () {
     body.style.color = "#fff";
     body.style.transition = "2s";
     header.style.background = "black";
-    header.style.color = "#ffff";
+    header.style.color = "#fff";
     header.style.transition = "2s";
     home.style.color = "#fff";
     logo.style.color = "#fff";
@@ -59,7 +59,7 @@ toggle.addEventListener("click", function () {
     box.style.background = "black";
     box.style.transition = "2s";
     navBar.style.background = "#000";
-    navBar.style.color = "#ffffff";
+    navBar.style.color = "#fff";
     navBar.style.transition = "2s";
     footer.style.background = "#000";
     footer.style.transition = "2s";
