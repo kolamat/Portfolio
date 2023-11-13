@@ -14,7 +14,6 @@ const box = document.querySelector(".portfolio-box");
 const footer = document.querySelector("footer");
 const logo = document.querySelector(".logo");
 const services = document.querySelector(".services-box");
-const navBar = document.querySelector("nav");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
@@ -37,7 +36,8 @@ toggle.addEventListener("click", function () {
     services.style.color = "#000";
     box.style.background = "#ffff";
     box.style.transition = "2s";
-    navBar.style.background = "#fff";
+    navbar.style.background = "#fff";
+    navbar.style.color = "#000";
     footer.style.background = "#ffff";
     footer.style.transition = "2s";
   } else {
@@ -58,8 +58,9 @@ toggle.addEventListener("click", function () {
     services.style.color = "#fff";
     box.style.background = "black";
     box.style.transition = "2s";
-    navBar.style.background = "#000";
-    navBar.style.transition = "2s";
+    navbar.style.background = "#000";
+    navbar.style.color = "#fff";
+    navbar.style.transition = "2s";
     footer.style.background = "#000";
     footer.style.transition = "2s";
   }
