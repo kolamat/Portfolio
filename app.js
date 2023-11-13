@@ -37,7 +37,7 @@ toggle.addEventListener("click", function () {
     box.style.background = "#ffff";
     box.style.transition = "2s";
     navbar.style.background = "#fff";
-    navbar.style.color = "#000";
+    navbar.style.color = "#00000";
     footer.style.background = "#ffff";
     footer.style.transition = "2s";
   } else {

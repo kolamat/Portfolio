@@ -85,7 +85,7 @@ section {
 
 .navbar a {
   font-size: 1.7rem;
-  color: #dcdada;
+  color: #767676;
   margin-left: 4rem;
   transition: .5s;
 }
@@ -97,7 +97,7 @@ section {
 
 #menu-icon {
   /* font-size: 3.6rem; */
-  /* color: #474747; */
+  color: #474747;
   display: none;
 }
 
