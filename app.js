@@ -58,7 +58,7 @@ toggle.addEventListener("click", function () {
     services.style.color = "#fff";
     box.style.background = "black";
     box.style.transition = "2s";
-    navBar.style.background = "#000";
+    // navBar.style.background = "#000";
     navBar.style.color = "#ffffff";
     navBar.style.transition = "2s";
     footer.style.background = "#000";
