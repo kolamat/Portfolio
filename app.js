@@ -27,6 +27,7 @@ toggle.addEventListener("click", function () {
     // header.style.color = "#000";
     header.style.transition = "2s";
     home.style.color = "#000";
+    home.style.transition = "2s";
     about.style.background = "#ffff";
     about.style.transition = "2s";
     portfolio.style.background = "#ffff";
