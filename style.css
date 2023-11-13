@@ -83,9 +83,13 @@ section {
   cursor: pointer;
 }
 
+.navbar {
+  color: #000000;
+}
+
 .navbar a {
   font-size: 1.7rem;
-  color: #474747;
+  /* color: #474747; */
   margin-left: 4rem;
   transition: .5s;
 }
