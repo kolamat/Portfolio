@@ -7,6 +7,7 @@
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
 const header = document.querySelector(".header");
+const home = document.querySelector(".home-content");
 const about = document.querySelector(".about");
 const portfolio = document.querySelector(".portfolio");
 const box = document.querySelector(".portfolio-box");
