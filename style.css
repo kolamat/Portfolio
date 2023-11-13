@@ -78,7 +78,7 @@ section {
 .logo {
   cursor: pointer;
   font-size: 2.5rem;
-  color: #474747;
+  /* color: #474747; */
   font-weight: 600;
   cursor: default;
 }
@@ -110,7 +110,7 @@ section {
   top: 49%;
   left: 98.6%;
   transform: translate(-50%, -50%);
-  /* color: #7f4444; */
+  color: #474747;
 }
 
 .card {
