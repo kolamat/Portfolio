@@ -83,6 +83,9 @@ section {
   cursor: pointer;
 }
 
+nav {
+  background: #fff;
+}
 
 .navbar a {
   font-size: 1.7rem;
