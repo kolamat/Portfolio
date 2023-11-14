@@ -322,7 +322,9 @@ span {
   color: #6f6f6f;
 }
 
-.portfolio {}
+/* .portfolio {
+  margin-bottom: 5rem;
+} */
 
 .portfolio h2 {
   margin-bottom: 4rem;
@@ -402,9 +404,9 @@ span {
   color: var(--second-bg-color);
 }
 
-.contact {
-  margin-top: 10rem;
-}
+/* .contact {
+  margin-top: 15rem;
+} */
 
 .contact h2 {
   margin-bottom: 3rem;
