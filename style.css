@@ -76,6 +76,7 @@ section {
 
 .navbar a:hover,
 .navbar a.active {
+  text-decoration: underline;
   color: var(--main-color);
 }
 
@@ -401,6 +402,10 @@ span {
 .portfolio-layer a i {
   font-size: 2rem;
   color: var(--second-bg-color);
+}
+
+.contact {
+  margin-top: 10rem;
 }
 
 .contact h2 {
