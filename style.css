@@ -322,9 +322,7 @@ span {
   color: #6f6f6f;
 }
 
-.portfolio {
-  /* background: var(--second-bg-color); */
-}
+.portfolio {}
 
 .portfolio h2 {
   margin-bottom: 4rem;
