@@ -469,7 +469,6 @@ ol li {
 }
 
 hr {
-  /* background: var(--main-color); */
   border: 2px solid var(--main-color);
 }
 
