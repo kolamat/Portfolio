@@ -4,6 +4,15 @@
 //   time.innerHTML = new Date();
 // }
 
+alert("Welcome To K_M_O dorm");
+var name = prompt("what is your name");
+var firstchar = name.slice(0, 1);
+var uppercasefirstchar = firstchar.toUpperCase();
+var restofname = name.slice(1, name.length);
+restofname = restofname.toLowerCase();
+var capitalisedname = uppercasefirstchar + restofname;
+alert("How Far, " + capitalisedname);
+
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
 const header = document.querySelector(".header");
