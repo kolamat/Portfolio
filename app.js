@@ -11,9 +11,7 @@ var uppercasefirstchar = firstchar.toUpperCase();
 var restofname = name.slice(1, name.length);
 restofname = restofname.toLowerCase();
 var capitalisedname = uppercasefirstchar + restofname;
-alert(
-  "How Far, " + capitalisedname + " " + "Welcome" + " Have a great adventure"
-);
+alert("How Far " + capitalisedname, +" Welcome" + " Have a great adventure");
 
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
