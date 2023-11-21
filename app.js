@@ -12,7 +12,7 @@ var restofname = name.slice(1, name.length);
 restofname = restofname.toLowerCase();
 var capitalisedname = uppercasefirstchar + restofname;
 alert(
-  "How Far, " + capitalisedname + " " + "Welcome" + "Have a great adventure"
+  "How Far, " + capitalisedname + " " + "Welcome" + " Have a great adventure"
 );
 
 const toggle = document.getElementById("sun");
