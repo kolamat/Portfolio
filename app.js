@@ -4,7 +4,7 @@
 //   time.innerHTML = new Date();
 // }
 
-alert("Welcome To K_M_O dorm");
+alert("Welcome To M_O_K dorm");
 var name = prompt("what is your name");
 var firstchar = name.slice(0, 1);
 var uppercasefirstchar = firstchar.toUpperCase();
