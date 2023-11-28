@@ -140,20 +140,6 @@ title {
   background-color: #0ef;
 }
 
-/* @keyframes floatimage {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-2.4rem);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-} */
-
 .home-content {
   color: #000000;
 }
