@@ -17,14 +17,14 @@ alert(
 
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");
-const header = document.querySelector("header");
-const home = document.querySelector("home-content");
-const about = document.querySelector("about");
-const portfolio = document.querySelector("portfolio");
-const box = document.querySelector("portfolio-box");
+const header = document.querySelector(".header");
+const home = document.querySelector(".home-content");
+const about = document.querySelector(".about");
+const portfolio = document.querySelector(".portfolio");
+const box = document.querySelector(".portfolio-box");
 const footer = document.querySelector("footer");
-const logo = document.querySelector("logo");
-const services = document.querySelector("services-box");
+const logo = document.querySelector(".logo");
+const services = document.querySelector(".services-box");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("fa-moon");
