@@ -116,7 +116,7 @@ window.onscroll = () => {
 
 ScrollReveal({
   reset: true,
-  distance: "20px",
+  distance: "5px",
   duration: 2000,
   delay: 200,
 });
@@ -129,7 +129,7 @@ ScrollReveal().reveal(
 ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
-const typed = new Typed(".multiple-text", {
+const typed = new typed(".multiple-text", {
   strings: ["Frontend Engineer", "Gamer", "Blogger"],
   shuffle: true,
   cursorChar: ".",
