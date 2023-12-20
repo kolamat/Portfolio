@@ -332,13 +332,11 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   box-sizing: border-box;
   overflow: hidden;
-  /* display: flex; */
-  /* padding: .3rem .3rem .3rem .3rem; */
 }
 
 .portfolio-box img {
   width: 100%;
-  height: 320px;
+  height: 450px;
   object-fit: fill;
   /*object-position: center; */
   transition: 0.5s ease;
