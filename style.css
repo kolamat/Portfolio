@@ -275,6 +275,9 @@ span {
   flex-wrap: wrap;
   gap: 2rem;
   transition: 1s;
+  bo
+  width: 100%;
+  height: 100%;
 }
 
 .services-container .services-box {
