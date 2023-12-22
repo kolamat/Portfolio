@@ -230,6 +230,13 @@ span {
   /* animation: floatimage 2.5s ease-in-out infinite; */
 }
 
+/* .about-img:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 .5rem .5rem var(--main-color);
+  transition: .5s;
+} */
+
 .heading {
   text-align: center;
   font-size: 4.5rem;
@@ -243,6 +250,8 @@ span {
   font-size: 4.5rem;
   color: #474747;
 }
+
+/* .about-content h2 {} */
 
 .about-content h3 {
   font-size: 2.6rem;
@@ -267,10 +276,14 @@ span {
   flex-wrap: wrap;
   gap: 2rem;
   transition: 1s;
+  /* box-sizing: border-box;
+  width: 100%;
+  height: 100%; */
 }
 
 .services-container .services-box {
   flex: 1 1 30rem;
+  /* background: #fff; */
   color: #000000;
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
@@ -301,6 +314,10 @@ span {
   margin: 1rem 0 3rem;
   color: #6f6f6f;
 }
+
+/* .portfolio {
+  margin-bottom: 5rem;
+} */
 
 .portfolio h2 {
   margin-bottom: 4rem;
