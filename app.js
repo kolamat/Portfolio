@@ -156,6 +156,7 @@ btn.addEventListener("click", function onClick() {
 anime({
   targets: ".social-media",
   translateX: 270,
+  translateY: 270,
   loop: 1,
   direction: "reverse",
   easing: "easeInOutSine",
