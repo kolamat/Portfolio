@@ -153,11 +153,11 @@ btn.addEventListener("click", function onClick() {
   index = index >= colors.length - 1 ? 0 : index + 1;
 });
 
-anime({
-  targets: ".social-media",
-  translateX: 270,
-  translateY: 270,
-  loop: 1,
-  direction: "reverse",
-  easing: "easeInOutSine",
-});
+// anime({
+//   targets: ".social-media",
+//   translateX: 270,
+//   translateY: 270,
+//   loop: 1,
+//   direction: "reverse",
+//   easing: "easeInOutSine",
+// });
