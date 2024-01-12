@@ -265,7 +265,7 @@ span {
   grid-template-columns: 450px 450px 450px;
   /* justify-content: center; */
   /* align-items: center; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* gap: 2rem; */
   transition: 1s;
 }
