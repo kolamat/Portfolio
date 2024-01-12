@@ -261,9 +261,9 @@ span {
 }
 
 .services-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
   grid-template-columns: auto;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
