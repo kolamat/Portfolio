@@ -262,11 +262,12 @@ span {
 
 .services-container {
   display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  /* gap: 2rem; */
   transition: 1s;
 }
 
