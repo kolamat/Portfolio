@@ -523,6 +523,10 @@ hr {
     padding: 10rem 3% 2rem;
   }
 
+  .home-content h1 {
+    display: none;
+  }
+
   .services {
     padding-bottom: 7rem;
   }
