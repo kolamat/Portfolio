@@ -26,13 +26,14 @@ html {
   overflow-x: auto;
   overflow-y: auto;
   scroll-behavior: unset;
-  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
   background: #fff;
   color: #fff;
   overflow-x: hidden;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 section {
