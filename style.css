@@ -8,7 +8,6 @@
   text-decoration: none;
   outline: none;
   scroll-behavior: smooth;
-  font-family: "Edu TAS Beginner", cursive;
 }
 
 :root {
@@ -35,7 +34,6 @@ body {
   background: #fff;
   color: #fff;
   overflow-x: hidden;
-  font-family: "Edu TAS Beginner", cursive;
 }
 
 section {
