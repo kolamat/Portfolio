@@ -281,7 +281,7 @@ svg {
 }
 
 .services-box .btn {
-  text-align: end;
+  width: 100px;
 }
 
 .services-container .services-box {
