@@ -215,6 +215,11 @@ span {
   text-decoration: none;
 }
 
+svg {
+  font-size: 150px;
+  stroke-width: 5;
+}
+
 .about {
   display: flex;
   justify-content: center;
@@ -618,6 +623,7 @@ hr {
 
   svg {
     font-size: 280px;
+    stroke-width: 10;
   }
 
   .home-content h3 {
