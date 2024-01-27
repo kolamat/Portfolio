@@ -280,6 +280,10 @@ svg {
   transition: 1s;
 }
 
+.services-box .btn {
+  text-align: end;
+}
+
 .services-container .services-box {
   display: flex;
   flex-direction: column;
