@@ -284,12 +284,6 @@ svg {
   align-self: center;
 }
 
-.services-box button {
-  width: 100px;
-  border-radius: 30px;
-  align-self: center;
-}
-
 .services-container .services-box {
   display: flex;
   flex-direction: column;
