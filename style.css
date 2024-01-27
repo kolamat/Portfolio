@@ -29,7 +29,7 @@ html {
   overflow-x: auto;
   overflow-y: auto;
   scroll-behavior: unset;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 body {
