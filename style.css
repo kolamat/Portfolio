@@ -218,6 +218,8 @@ span {
 svg {
   font-size: 150px;
   stroke-width: 5;
+  fill: #011517;
+  stroke: #0ef;
 }
 
 .about {
@@ -624,6 +626,8 @@ hr {
   svg {
     font-size: 280px;
     stroke-width: 10;
+    stroke: #011517;
+    fill: #0ef;
   }
 
   .home-content h3 {
