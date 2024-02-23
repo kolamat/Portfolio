@@ -1,3 +1,5 @@
+"use strict";
+
 // setInterval(upDatetime, 1000);
 
 // function upDatetime() {
