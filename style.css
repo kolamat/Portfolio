@@ -23,6 +23,8 @@
   --color3: #0e4b50;
   --color4: #2d8f85;
   --color5: #637c54;
+  --btnFontColor: #000;
+  --btnBg: #fff;
 }
 
 html {
@@ -40,6 +42,15 @@ body {
   overflow-x: hidden;
   /* font-family: "Open Sans", sans-serif; */
   font-family: "Playpen Sans", cursive;
+}
+
+.light-theme {
+  background: var(--btnBg);
+  color: var(--btnFontColor);
+}
+.dark-theme {
+  background: var(--btnFontColor);
+  color: var(--btnBg);
 }
 
 section {
