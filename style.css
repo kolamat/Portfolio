@@ -111,14 +111,22 @@ section {
 }
 
 #sun {
-  position: absolute;
+  /* position: relative; */
   font-size: 15px;
   text-align: center;
   cursor: pointer;
-  top: 51%;
-  left: 98.6%;
-  transform: translate(-50%, -50%);
+  /* top: 51%;
+  left: 98.6%; */
+  /* transform: translate(-50%, -50%); */
   color: #474747;
+}
+
+.sunbtn {
+  border-radius: 100%;
+}
+
+.flexmenu {
+  display: flex;
 }
 
 /* .card {
