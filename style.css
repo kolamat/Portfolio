@@ -111,7 +111,7 @@ section {
 }
 
 #sun {
-  /* position: relative; */
+  /* position: absolute; */
   font-size: 15px;
   text-align: center;
   cursor: pointer;
@@ -127,6 +127,9 @@ section {
 
 .flexmenu {
   display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-items: center;
 }
 
 /* .card {
