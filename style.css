@@ -124,6 +124,7 @@ section {
 .sunbtn {
   border-radius: 100%;
   background: #474747;
+  background: transparent;
 }
 
 .flexmenu {
