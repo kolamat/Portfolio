@@ -121,6 +121,18 @@ section {
   color: #474747;
 }
 
+.sunbtn {
+  border-radius: 100%;
+  background: #474747;
+  background: transparent;
+}
+
+.flexmenu {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
 /* .card {
   background: var(--main-color);
 } */
