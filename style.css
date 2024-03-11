@@ -392,12 +392,12 @@ svg {
   flex-direction: column;
   text-align: center;
   padding: 0.4rem;
-  transform: translateX(100%);
+  transform: translatey(100%);
   transition: 0.5s ease;
 }
 
 .portfolio-box:hover .portfolio-layer {
-  transform: translateX(0);
+  transform: translatey(0);
 }
 
 .portfolio-layer h4 {
