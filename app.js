@@ -49,8 +49,6 @@ toggle.addEventListener("click", function () {
     services.style.color = "#000";
     box.style.background = "#ffff";
     box.style.transition = "2s";
-    // navbar.style.background = "#fff";
-    // navbar.style.color = "#00000";
     footer.style.background = "#ffff";
     footer.style.color = "#ffff";
     footer.style.transition = "2s";
@@ -72,8 +70,6 @@ toggle.addEventListener("click", function () {
     services.style.color = "#fff";
     box.style.background = "black";
     box.style.transition = "2s";
-    // navbar.style.background = "#000";
-    // navbar.style.color = "#fff";
     navbar.style.transition = "2s";
     footer.style.background = "#000";
     footer.style.transition = "2s";
