@@ -70,7 +70,8 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.4rem 4%;
+  /* padding: 1.4rem 4%; */
+  padding: 2rem 9%;
   background: #fff;
   color: #000000;
   display: flex;
@@ -81,6 +82,10 @@ section {
 
 .header.sticky {
   border-bottom: 0.1rem solid var(--main-color);
+}
+
+.homeSvg {
+  padding: 15px 15px 15px 30px;
 }
 
 .logo {
