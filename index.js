@@ -1,19 +1,19 @@
-const typed = new Typed("#multiple", {
-  strings: [
-    "Chidinma_Meebaby",
-    "Happy_Birthday",
-    "Long_Life_And_Prosperity",
-    "More_Money_In_Your_Account",
-    "Lastly_More_Cake_To_Burst_And_Eat",
-  ],
-  shuffle: false,
-  cursorChar: "&#x2022;",
-  startDelay: 2000,
-  typeSpeed: 50,
-  backSpeed: 110,
-  backDelay: 2000,
-  loop: false,
-});
+// const typed = new Typed("#multiple", {
+//   strings: [
+//     "Chidinma_Meebaby",
+//     "Happy_Birthday",
+//     "Long_Life_And_Prosperity",
+//     "More_Money_In_Your_Account",
+//     "Lastly_More_Cake_To_Burst_And_Eat",
+//   ],
+//   shuffle: false,
+//   cursorChar: "&#x2022;",
+//   startDelay: 2000,
+//   typeSpeed: 50,
+//   backSpeed: 110,
+//   backDelay: 2000,
+//   loop: false,
+// });
 
 let bdg = document.getElementById("image");
 
