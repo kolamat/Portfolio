@@ -6,16 +6,16 @@
 //   time.innerHTML = new Date();
 // }
 
-alert("Welcome To M_O_K dorm");
-var name = prompt("what is your name");
-var firstChar = name.slice(0, 1);
-var upperCaseFirstChar = firstChar.toUpperCase();
-var restOfName = name.slice(1, name.length);
-restOfName = restOfName.toLowerCase();
-var capitalisedName = upperCaseFirstChar + restOfName;
-alert(
-  "How Far " + capitalisedName + ", " + "Welcome 👋" + " Have a great adventure"
-);
+// alert("Welcome To M_O_K dorm");
+// var name = prompt("what is your name");
+// var firstChar = name.slice(0, 1);
+// var upperCaseFirstChar = firstChar.toUpperCase();
+// var restOfName = name.slice(1, name.length);
+// restOfName = restOfName.toLowerCase();
+// var capitalisedName = upperCaseFirstChar + restOfName;
+// alert(
+//   "How Far " + capitalisedName + ", " + "Welcome 👋" + " Have a great adventure"
+// );
 
 const toggle = document.getElementById("sun");
 const body = document.querySelector("body");

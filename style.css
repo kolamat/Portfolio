@@ -433,18 +433,19 @@ svg {
   margin: 1rem auto;
   text-align: center;
   margin-bottom: 3rem;
-    display: flex;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .input-box {
-  width: 100vw;
+  width: 100%;
   color: #474747;
 }
 
 .inputBox {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
@@ -738,7 +739,7 @@ hr {
   .container {
     display: none;
   }
-  
+
   /* span#time {
     font-size: 1rem;
   } */
