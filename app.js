@@ -141,10 +141,9 @@ const btn = document.getElementById("btn");
 
 let index = 0;
 
-// const colors = ["#052b2f", "#1f242d", "#0ef", "#2d8f85"];
+const colors = ["#052b2f", "#1f242d", "#0ef", "#2d8f85"];
 
 btn.addEventListener("click", function onClick() {
-  // btn.style.backgroundColor = colors[index];
   btn.style.color = "red";
 
   index = index >= colors.length - 1 ? 0 : index + 1;
