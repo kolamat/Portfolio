@@ -461,7 +461,10 @@ svg {
   margin: 0.7rem 0;
 }
 
-#input {
+#input1,
+#input2,
+#input3,
+#input4 {
   width: 100%;
 }
 
