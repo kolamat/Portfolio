@@ -36,7 +36,7 @@ toggle.addEventListener("click", function () {
     body.style.transition = "2s";
     logo.style.color = "#000";
     header.style.background = "#ffff";
-    // header.style.color = "#000";
+    header.style.color = "#000";
     header.style.transition = "2s";
     home.style.color = "#000";
     home.style.transition = "2s";
